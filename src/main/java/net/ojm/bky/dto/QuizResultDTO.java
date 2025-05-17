@@ -1,4 +1,4 @@
 package net.ojm.bky.dto;
 
-public class QuizResultDTO {
-}
+public record QuizResultDTO(Long userId, String quizTitle, String resultSummary) {}
+
